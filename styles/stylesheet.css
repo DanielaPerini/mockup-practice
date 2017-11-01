@@ -1,0 +1,98 @@
+body {
+  /* Change my background, and set global font family.*/ 
+  background-color: black;
+  font-family: inherit;
+}
+
+.content-wrapper {
+  /* Center on page, set width */
+  background-color: white;
+  align-content: center;
+  padding: 2em 4.5em 0em;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 85%;
+}
+
+.main-nav {
+  /* Change background color, remove bullets, border on each individual nav element. create and float links, center our content within the links. width, font color, change font family */
+  font-family: monospace;
+  font-size: 1.5em;
+  width: 100%;
+}
+
+.main-nav li{
+  float: left;
+  list-style-type: none;
+  background-color: darkviolet;
+  color: white;
+  border-right: 1px solid purple; 
+  border-left: 1px solid purple; 
+  padding: 0.5em 3em;
+  text-align: center;
+}
+
+header h1 {
+  /* Make bigger and color, Change our font family to a sans serif and center*/
+  font-size: 4em;
+  font-family: sans-serif;
+  text-align: center;
+  color: darkviolet;
+}
+
+
+aside {
+  /* clear float, background color, float, font color */
+  clear: both;
+  background-color: mediumpurple;
+  float: left;
+  width: 25%;
+  color: white;
+  padding-top: 5.22em;
+  padding-bottom: 5.22em;
+}
+  aside ul {
+    /* clear both, links? REVEEER*/
+    clear: both;
+  }
+  
+aside li{
+  font-size: 1.5em;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 0.5em;
+}
+
+article {
+  /* background-color, float to the right?, font size  REVEEER */
+  /* Center img, size of the font */ 
+  background-color: lightgray;
+  float: right;
+  font-size: 1em;
+  padding-bottom: 1em;
+  width: 75%;
+}
+
+article img{
+  width: 40%;
+  padding-top: 5em;
+  margin-left: 15em;
+  margin-right: auto;
+}
+article p{
+  padding: 2em 15em 3em 10em;
+  text-align: center;
+  
+}
+
+footer {
+  /* float the images, create links, center links REVER*/
+  margin-left: 10em;
+  margin-right: auto;
+}
+
+footer img {
+  float: left;
+  width: 4%;
+  padding: 2em 0em;
+}
